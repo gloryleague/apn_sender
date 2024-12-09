@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   s.add_dependency "connection_pool"
-  s.add_dependency "activesupport", ">= 6", "< 8"
+  s.add_dependency "activesupport", ">= 6"
   s.add_dependency "daemons"
 end
